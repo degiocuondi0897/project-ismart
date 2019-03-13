@@ -1,0 +1,25 @@
+#Bât link thân thiện lên
+RewriteEngine On
+
+#Nhóm header
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=home&controller=index&action=index
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=product&controller=index&action=index
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=post&controller=index&action=index
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=about&controller=index&action=index
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=contact&controller=index&action=index
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?mod=home&controller=index&action=search
+
+
+
+
+#Nhóm product
+#--Danh muc sp
+
+
+#--chi tiết sản phẩm ?mod=products&controller=index&action=detail&id=1
+#RewriteRule ^sp/chi-tiet/([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=products&controller=index&action=detail&id=$2
+
+
+#RewriteRule ^tim-kiem/([A-Za-z0-9_-]+)-([0-9]+)$ index.php?mod=search&controller=index&action=search&key=$1&page=$2
+
+

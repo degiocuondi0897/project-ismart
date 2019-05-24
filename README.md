@@ -4,7 +4,7 @@
 ## Hướng dẫn cài đặt project:
 ### Bước 1: Cấu hình host ảo:
 - Vào C:\Windows\System32\drivers\etc\hosts thêm dòng vào dòng cuối cùng của file:  
-127.0.0.1 	    ismart.local 
+`127.0.0.1 	    ismart.local `
 - Vào C:\xampp\apache\conf\extra\httpd-vhost.conf và paste:
 ` <VirtualHost ismart.local:80>
    ServerAdmin webmaster@dummy-host2.example.com
